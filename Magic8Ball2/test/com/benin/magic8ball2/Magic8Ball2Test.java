@@ -38,6 +38,12 @@ class Magic8Ball2Test {
 		String answer = null;
 		answer = m8b2.shake();
 	    assertNotNull(answer);
+	    //assertEquals("Without a doubt, Yes", answer);
+	  //  assertEquals("Most likely", answer);
+	   // assertEquals("Cannot predict now", answer);
+	   // assertEquals("Outlook not so good", answer);
+	    //assertEquals("Please don't ask again", answer);
+	   //assertEquals("You may rely on it", answer);
 		assertNotEquals ("Benin", answer);
 	}
 

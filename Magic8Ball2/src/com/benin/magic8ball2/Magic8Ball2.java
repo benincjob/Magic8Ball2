@@ -13,12 +13,12 @@ public class Magic8Ball2 {
 	public Magic8Ball2() {
 		this.question = null;
 		answers = new ArrayList<String>();
-		answers.add("As I see it yes");
-		answers.add("Ask again later");
-		answers.add("Yes");
-		answers.add("No");
-		answers.add("May be");
-		answers.add("Please stop asking");
+		answers.add("Without a doubt, Yes");
+		answers.add("Most likely");
+		answers.add("Cannot predict now");
+		answers.add("Outlook not so good");
+		answers.add("Please don't ask again");
+		answers.add("You may rely on it");
 		
 	}
 
@@ -40,13 +40,14 @@ public class Magic8Ball2 {
 	public String shake() {
 		
 		String randomElement = answers.get(rand.nextInt(answers.size()));
-		System.out.println(randomElement);
-		System.out.println(choice);
+		//System.out.println(randomElement);
+		//System.out.println(choice);
 		// Return a random element from the list
 		// Use random class to create random number
 		// Use random number to get element from array list
+		return randomElement;
 		
-		return answers.get(choice);
+		//return answers.get(choice);
 	}
 
 }
